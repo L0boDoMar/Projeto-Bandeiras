@@ -1,0 +1,1016 @@
+/*RESET*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: normal;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+/* MENU */
+body {
+    background: url(../imagens/background\ PNG.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    color: white;
+}
+
+header nav {
+    width: 100%;
+    height: 60px;
+    padding: 16px 8%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 340px;
+    height: 40px;
+    background-color: black;
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    background-color: green;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+/* PRINCIPAL */
+
+.principal {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+}
+
+.sobre {
+    width: 100%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: black;
+}
+
+.imagem img {
+    width: 100%;
+    height: 450px;
+    padding: 16px 8%;
+    float: left;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+.imagem-cidades{
+    width: 60%;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+.imagem-cidades{
+    padding: 20px;
+    background-color: white;
+}
+.sobre p {
+    text-align: justify;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+
+.sobre button {
+    padding: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sobre button {
+    border: 1px;
+    color: black;
+    border-radius: 10px;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.sobre button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HINOS */
+.principal-hinos {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+}
+
+.artigo-hinos {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.artigo-hinos h2 {
+    text-align: center;
+}
+
+.artigo-hinos img {
+    width: 70%;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+.artigo-hinos pre {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.artigo-hinos pre {
+    font-size: 1.2em;
+    color: black;
+    text-align: justify;
+}
+
+.artigo-hinos button {
+    padding: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.artigo-hinos button {
+    background-color: rgb(187, 184, 184);
+    border: 1px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.artigo-hinos button a {
+    text-decoration: none;
+    color: black;}
+
+
+    /*NEWSLETTER*/
+
+
+    .newsletter {
+        width: 100%;
+        float: left;
+        background-color: #111;
+        padding: 50px 8%;
+        opacity: 0.8;
+    }
+
+    .newsletter h3 {
+        font-size: 1.8em;
+        color: #fff;
+    }
+
+    .newsletter p {
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    .newsletter form {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .newsletter input {
+        width: 40%;
+        margin-right: 1%;
+        padding: 15px 10px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        background-color: initial;
+        color: #fff;
+    }
+
+    .newsletter input::placeholder {
+        color: #fff;
+    }
+
+    .newsletter button {
+        width: 17%;
+        background-color: #fff;
+        padding: 15px 10px;
+        border-radius: 10px;
+        float: right;
+        cursor: pointer;
+    }
+
+    .newsletter button:hover {
+        opacity: 0.5;
+    }
+
+    /* RODAPE */
+
+    .rodape {
+        width: 100%;
+        float: left;
+        background-color: #000000;
+        padding: 25px 8%;
+    }
+
+    .rodape p {
+        color: #fff;
+    }
+
+    /* CONTATO */
+    .main-contatos{
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+       
+    }
+    
+    .contatos {
+        width: 80%;
+        display: block;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    
+    .contatos h2 {
+        margin-bottom: 15px;
+        margin-top: 20px;
+        color: black;
+        font-size: 1.6em;
+    }
+    .contatos h3{
+        font-size: 1.4em;
+        color: black;
+    }
+    
+    .contatos p {
+        text-align: justify;
+        font-size: 1.2em;
+        color: rgb(0, 0, 0);
+        margin-bottom: 15px;
+    }
+    
+    /* RESPONSIVIDADE */
+
+    @media only screen and (max-width: 425px) {
+/* MENU */
+
+
+header nav {
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    background-color: transparent;
+  
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 270px;
+    height: 40px;
+    background-color: black;
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    background-color: green;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+/* PRINCIPAL */
+
+.principal {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+}
+
+.sobre {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.sobre h2 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: black;
+}
+
+.imagem img {
+    width: 100%;
+    height: 450px;
+    padding: 16px 8%;
+    float: left;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+.imagem-cidades{
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+.imagem-cidades{
+    padding: 20px;
+    background-color: white;
+}
+.sobre p {
+    text-align: justify;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+
+.sobre button {
+    padding: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sobre button {
+    border: 1px;
+    color: black;
+    border-radius: 10px;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.sobre button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HINOS */
+.principal-hinos {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+}
+
+.artigo-hinos {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.artigo-hinos h2 {
+    text-align: center;
+}
+
+.artigo-hinos img {
+    width: 70%;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+.artigo-hinos pre {
+    width: 100%;
+
+}
+
+.artigo-hinos pre {
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+}
+
+.artigo-hinos button {
+    padding: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.artigo-hinos button {
+    background-color: rgb(187, 184, 184);
+    border: 1px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.artigo-hinos button a {
+    text-decoration: none;
+    color: black;}
+
+
+    /*NEWSLETTER*/
+
+
+    .newsletter {
+        width: 100%;
+        float: left;
+        background-color: #111;
+        padding: 50px 8%;
+        opacity: 0.8;
+    }
+
+    .newsletter h3 {
+        font-size: 1.8em;
+        color: #fff;
+    }
+
+    .newsletter p {
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    .newsletter form {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .newsletter input {
+        width: 100%;
+        margin-right: 1%;
+        margin-bottom: 5px;
+        padding: 15px 10px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        background-color: initial;
+        color: #fff;
+    }
+
+    .newsletter input::placeholder {
+        color: #fff;
+    }
+
+    .newsletter button {
+        width: 100%;
+        background-color: #fff;
+        padding: 15px 10px;
+        border-radius: 10px;
+        float: left;
+        cursor: pointer;
+    }
+
+    .newsletter button:hover {
+        opacity: 0.5;
+    }
+
+    /* RODAPE */
+
+    .rodape {
+        width: 100%;
+        float: left;
+        background-color: #000000;
+        padding: 25px 8%;
+    }
+
+    .rodape p {
+        color: #fff;
+    }
+
+    /* CONTATO */
+    .main-contatos{
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+       
+    }
+    
+    .contatos {
+        width: 100%;
+        display: block;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    
+    .contatos h2 {
+        margin-bottom: 15px;
+        margin-top: 20px;
+        color: black;
+        font-size: 1.4em;
+    }
+    .contatos h3{
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .contatos p {
+        text-align: justify;
+        font-size: 1em;
+        color: rgb(0, 0, 0);
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+    }
+    @media only screen and (max-width: 768px) {
+        header nav {
+            width: 100%;
+            height: 60px;
+            padding: 16px 8%;
+            background-color: transparent;
+            opacity: 0.8;
+        }
+        
+        ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        
+        ul li {
+            float: left;
+            width: 200px;
+            height: 40px;
+            background-color: black;
+            opacity: 0.9;
+            line-height: 40px;
+            text-align: center;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        
+        .imagem-cidades{
+            width: 80%;
+            height: 250px;
+            display: block;
+            margin: auto;
+            border-radius: 20px;
+        }
+        
+        
+        /* HINOS */
+        .principal-hinos {
+            width: 100%;
+            float: left;
+            padding: 16px 8%;
+        }
+        
+        .artigo-hinos {
+            width: 80%;
+            display: block;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        .artigo-hinos h2 {
+            text-align: center;
+        }
+        
+        .artigo-hinos img {
+            width: 70%;
+            height: 200px;
+            display: block;
+            margin: auto;
+            border-radius: 20px;
+        }
+        
+        
+        .artigo-hinos pre {
+            width: 100%;
+        }
+        
+        .artigo-hinos pre {
+            font-size: 1.2em;
+            color: black;
+            text-align: justify;
+        }
+        
+    }
+    @media only screen and (min-width: 1024px){
+     
+        ul li {
+            float: left;
+            width: 250px;
+            height: 40px;
+            background-color: black;
+            opacity: 0.9;
+            line-height: 40px;
+            text-align: center;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (min-width: 1440px){
+        ul li {
+            float: left;
+            width: 340px;
+            height: 40px;
+            background-color: black;
+            opacity: 0.9;
+            line-height: 40px;
+            text-align: center;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (min-width: 2560px){
+        header nav {
+            width: 100%;
+            height: 60px;
+            padding: 16px 8%;
+            background-color: black;
+            opacity: 0.8;
+        }
+        
+        ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        
+        ul li {
+            float: left;
+            width: 650px;
+            height: 40px;
+            background-color: black;
+            opacity: 0.9;
+            line-height: 40px;
+            text-align: center;
+            font-size: 30px;
+            margin-left: 10px;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+        
+        ul li a:hover {
+            background-color: green;
+        }
+        
+        ul li ul li {
+            display: none;
+        }
+        
+        ul li:hover ul li {
+            display: block;
+        }
+        
+        /* PRINCIPAL */
+        
+        .principal {
+            width: 100%;
+            float: left;
+            padding: 16px 8%;
+        }
+        
+        .sobre {
+            width: 100%;
+            float: left;
+            padding: 0 20px 20px 0;
+        }
+        
+        .sobre h2 {
+            margin-bottom: 15px;
+            margin-top: 20px;
+            font-size: 3em;
+            color: black;
+        }
+        
+        .imagem img {
+            width: 100%;
+            height: 450px;
+            padding: 16px 8%;
+            float: left;
+            border-radius: 8px;
+            display: block;
+            margin: auto;
+        }
+        .imagem-cidades{
+            width: 90%;
+            height: 800px;
+            display: block;
+            margin: auto;
+            border-radius: 20px;
+        }
+        .imagem-cidades{
+            padding: 20px;
+            background-color: white;
+        }
+        .sobre p {
+            text-align: justify;
+            font-size: 2.2em;
+            color: rgb(0, 0, 0);
+            margin-bottom: 15px;
+        }
+        
+        .sobre button {
+            padding: 40px ;
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .sobre button {
+            border: 1px;
+            color: black;
+            border-radius: 10px;
+        }
+        
+        .button:hover {
+            opacity: 0.7;
+        }
+        
+        .sobre button a {
+            text-decoration: none;
+            font-size: 2em;
+            color: black;
+        }
+        
+        /* HINOS */
+        .principal-hinos {
+            width: 100%;
+            float: left;
+            padding: 16px 8%;
+        }
+        
+        .artigo-hinos {
+            width: 80%;
+            display: block;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        .artigo-hinos h2 {
+            text-align: center;
+            font-size: 2.6em;
+        }
+        
+        .artigo-hinos img {
+            width: 70%;
+            height: 500px;
+            display: block;
+            margin: auto;
+            border-radius: 20px;
+        }
+        
+        
+        .artigo-hinos pre {
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
+        
+        .artigo-hinos pre {
+            font-size: 2.2em;
+            color: black;
+            text-align: justify;
+        }
+        
+        .artigo-hinos button {
+            padding: 40px;
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .artigo-hinos button {
+            background-color: rgb(187, 184, 184);
+            border: 1px;
+            border-color: black;
+            border-radius: 10px;
+        }
+        
+        .button:hover {
+            opacity: 0.7;
+        }
+        
+        .artigo-hinos button a {
+            text-decoration: none;
+            font-size: 2em;
+            color: black;}
+        
+        
+            /*NEWSLETTER*/
+        
+        
+            .newsletter {
+                width: 100%;
+                float: left;
+                background-color: #111;
+                padding: 50px 8%;
+                opacity: 0.8;
+            }
+        
+            .newsletter h3 {
+                font-size: 2.4em;
+                color: #fff;
+            }
+        
+            .newsletter p {
+                color: #fff;
+                font-size: 2.2em;
+            }
+        
+            .newsletter form {
+                width: 100%;
+                float: left;
+                margin-top: 10px;
+            }
+        
+            .newsletter input {
+                width: 40%;
+                margin-right: 1%;
+                padding: 25px 15px;
+                border: 1px solid #fff;
+                border-radius: 10px;
+                background-color: initial;
+                color: #fff;
+            }
+        
+            .newsletter input::placeholder {
+                color: #fff;
+                font-size: 1.9em;
+            }
+        
+            .newsletter button {
+                width: 17%;
+                background-color: #fff;
+                padding: 25px 15px;
+                border-radius: 10px;
+                float: right;
+                cursor: pointer;
+            }
+            .newsletter button{
+                font-size: 1.9em;
+            }
+        
+            .newsletter button:hover {
+                opacity: 0.5;
+            }
+        
+            /* RODAPE */
+        
+            .rodape {
+                width: 100%;
+                float: left;
+                background-color: #000000;
+                padding: 25px 8%;
+            }
+        
+            .rodape p {
+                color: #fff;
+            }
+        
+            /* CONTATO */
+            .main-contatos{
+                width: 100%;
+                float: left;
+                padding: 16px 8%;
+               
+            }
+            
+            .contatos {
+                width: 80%;
+                display: block;
+                margin: auto;
+                background-color: #fff;
+                border-radius: 20px;
+                padding: 20px;
+            }
+            
+            .contatos h2 {
+                margin-bottom: 15px;
+                margin-top: 20px;
+                color: black;
+                font-size: 2.4em;
+            }
+            .contatos h3{
+                font-size: 2.2em;
+                color: black;
+            }
+            
+            .contatos p {
+                text-align: justify;
+                font-size: 2em;
+                color: rgb(0, 0, 0);
+                margin-bottom: 15px;
+            }
+
+
+
+
+    }
+
+    
+   
